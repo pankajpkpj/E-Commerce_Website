@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+
+.img-fluid11 {
+    width: 100;
+    margin: auto;
+    position: relative;
+}
+.img-fluid11 > h3 {
+    position: absolute;
+    top: 3vh;
+    left: 6vw;
+    font-size: xx-large;
+    color: #999;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.mixed-biscuits3 {
+    width: 100%;
+    height: 60vw;
+}
+
+@media all and (min-width: 800px){
+    .mixed-biscuits3 {
+        height: 400px;
+    }
+}
+
+@media all and (min-width: 1200px){
+    .img-fluid11 {
+        width: 90%;
+        margin: auto;
+    }
+
+    .mixed-biscuits3 {
+        width: 100%;
+        height: 500px;
+    }
+}
+
+@media all and (min-width: 1600px){
+    .mixed-biscuits3 {
+        object-fit: cover;
+        object-position: left;
+    }
+}
+
+/*-------------------------------------------------------------*/
+
+
+
+.container h1 {
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    color: darkred;
+    padding: 15px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.col-md-4 {
+    font-size: 36px;
+    color: red;
+    font-family: 'Cinzel', serif;
+}
+
+.col-md-8 {
+    text-align: center;
+}
+
+.col-3 {
+    color: brown;
+    margin: auto;
+}
+
+.col-3:hover {
+    color: black;
+    text-decoration: none;
+}
+
+@media all and (max-width: 800px) {
+    .col-md-4 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+/*-----------------------------------------------------------*/
+
+
+.foot {
+    text-align: center;
+    font-size: small;
+    color: #999;
+    margin-top: 8vh;
+    margin-bottom: 6vh;
+}
