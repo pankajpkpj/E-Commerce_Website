@@ -1,0 +1,55 @@
+main {
+    margin-bottom: 10vh;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);;
+}
+
+h2 {
+    margin-top: 10vh;
+    margin-bottom: 7vh;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+h4,
+input,
+select,
+button{
+    margin-bottom: 3vh;
+}
+h4 {
+    font-size: small;
+    font-weight: bold;
+}
+.State-Zip {
+    display: flex;
+    gap: 4vw;
+}
+.form-control {
+    flex: 1;
+    border: 0;
+    border-bottom: 1px solid #aaa;
+    box-shadow: none !important;
+}
+.product,
+.Total-Price {
+    display: flex;
+    gap: 6vh;
+}
+.product-name,
+.product-price,
+.Total,
+.Price {
+    flex: 1;
+    font-size: small;
+}
+.Total-Price {
+    margin-top: 2vh;
+}
+
+
+@media all and (min-width: 800px){
+    form {
+        width: 80%;
+        margin: auto;
+    }
+}
