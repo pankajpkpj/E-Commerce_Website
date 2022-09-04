@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>checkout</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="stylesheets/base.css">
+        <link rel="stylesheet" href="stylesheets/page5.css">
+        <link rel="shortcut icon" href="images/logo.jpg">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <figure class="img-fluid11">
+                    <img class="mixed-biscuits3" src="images/mixed-biscuits3.jpg" alt="Biscuits_image">
+                    <h3>Biscuits <br> Store</h3>
+                </figure>
+
+                <div class="container">
+                    <h1>Purchase Biscuits</h1>
+
+                    <div class="row">
+                        <div class="col-md-4">Brands</div>
+
+                        <div class="col-md-8 row">
+                            <a class="col-3" href="Patanjali.html">Parle-G</a>
+                            <a class="col-3" href="Patanjali.html">Britania</a>
+                            <a class="col-3" href="Patanjali.html">Oreo</a>
+                            <a class="col-3" href="Patanjali.html">Patanjali</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="container">
+            <h2>Checkout</h2>
+            <form action="#">
+
+                <h4>Account Information</h4>
+
+                <input type="email" class="form-control" placeholder="Email" name="email">
+                <input type="text" class="form-control" placeholder="Phone-no" name="phone-no">
+
+                <h4>Shipping Address</h4>
+
+                <input type="text" class="form-control" placeholder="Address" name="address">
+                <input type="text" class="form-control" placeholder="City" name="city">
+
+                <div class="State-Zip">
+                    <input type="text" class="form-control" placeholder="State" name="state">
+                    <input type="text" class="form-control" placeholder="Zip Code" name="zipcode">
+                </div>
+
+                <select class="form-control" id="country" name="country">
+                    <option value="" disabled selected>Country</option>
+                    <option>United State</option>
+                    <option>India</option>
+                    <option>United Kingdom</option>
+                </select>
+
+                <h4>Billing Address</h4>
+
+                <input type="text" class="form-control" placeholder="Address" name="address">
+                <input type="text" class="form-control" placeholder="City" name="city">
+
+                <div class="State-Zip">
+                    <input type="text" class="form-control" placeholder="State" name="state">
+                    <input type="text" class="form-control" placeholder="Zip Code" name="zipcode">
+                </div>
+
+                <select class="form-control" id="country" name="country">
+                    <option value="" disabled selected>Country</option>
+                    <option>United State</option>
+                    <option>India</option>
+                    <option>United Kingdom</option>
+                </select>
+
+                <h4>Payment Method</h4>
+
+                <input type="text" class="form-control" placeholder="Cardholder Name" name="carholder">
+                <input type="text" class="form-control" placeholder="Card Number" name="card number">
+
+                <div class="State-Zip">
+                    <select class="form-control" id="Month" name="month">
+                        <option value="" disabled selected>Month</option>
+                        <option>Jan</option>
+                        <option>Feb</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+                    </select>
+
+                    <select class="form-control" id="Year" name="year">
+                        <option value="" disabled selected>Year</option>
+                        <option>2021</option>
+                        <option>2022</option>
+                        <option>2023</option>
+                        <option>2024</option>
+                        <option>2025</option>
+                        <option>2026</option>
+                        <option>2027</option>
+                        <option>2028</option>
+                        <option>2030</option>
+                        <option>2031</option>
+                        <option>2032</option>
+                        <option>2033</option>
+                    </select>
+
+                    <input type="text" class="form-control" placeholder="CVV" id="CVV" name="cvv">
+                </div>
+
+                <h4>Order Summary</h4>
+                <div class="product">
+                    <p class="product-name">Patanjali-Marei-biscuit</p>
+                    <p class="product-price">$ 30</p>
+                </div>
+                <div class="product">
+                    <p class="product-name">Patanjali-Marei-biscuit</p>
+                    <p class="product-price">$ 40</p>
+                </div>
+                <div class="Total-Price">
+                    <p class="Total">Total-Price</p>
+                    <p class="Price">$ 80</p>
+                </div>
+                <button type="submit" class="btn btn-success">PLACE ORDER</button>
+            </form>
+        </main>
+        <footer class="foot">
+            <p>Created by Pankaj Yadav</p>
+        </footer>
+    </body>
+</html>
