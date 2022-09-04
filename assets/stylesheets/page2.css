@@ -1,0 +1,36 @@
+.Brand-heading {
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.Brand-heading > h1 {
+    font-size: 4vw;
+    color: red;
+    font-family: 'Cinzel', serif;
+}
+.Patanjali-Biscuits {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    grid-column-gap: 8vw;
+    grid-row-gap: 2em;
+}
+.card {
+    width: 60%;
+    border: none;
+}
+
+@media all and (min-width: 600px){
+    .Patanjali-Biscuits {
+        grid-template-columns: 1fr 1fr;
+    }
+    .card {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 1000px) {
+    .Patanjali-Biscuits{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
