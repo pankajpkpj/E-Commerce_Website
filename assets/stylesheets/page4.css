@@ -1,0 +1,39 @@
+main {
+    margin-bottom: 4vh;
+}
+
+h2 {
+    margin-top: 10vh;
+    margin-bottom: 7vh;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+table {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);;
+}
+
+.contain-image{
+    width: 50%;
+}
+.product-image {
+    width: 100px;
+    height: 100px;
+}
+.Payment {
+    display: flex;
+    gap: 6vw;
+}
+.Price,
+.Proceed {
+    flex: 1;
+}
+.Price {
+    text-align: right;
+}
+.Proceed {
+    text-align: left;
+}
+footer {
+    margin-bottom: 10vh;
+}
