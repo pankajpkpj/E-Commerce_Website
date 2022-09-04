@@ -1,0 +1,116 @@
+section {
+    margin-top: 6vh;
+    margin-bottom: 15vh;
+}
+
+.its,
+.purchase {
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+}
+.purchase {
+
+    margin-top: 10px;
+}
+
+.yummy {
+    width: 40%;
+    margin: auto;
+}
+
+
+@media all and (min-width: 800px) {
+    .hungary_image {
+        margin-top: 6vw;
+    }
+    .its {
+        width: 20%;
+        display: inline-block;
+        text-align: right;
+        margin-right: 10px;
+        font-size: 4vw;
+    }
+    .yummy {
+        width: 20%;
+        display: inline-block;
+    }
+    .purchase {
+        width: 55%;
+        margin-left: 10px;
+        display: inline-block;
+        text-align: left;
+        font-size: 4vw;
+
+    }
+
+}
+
+/*---------------------------------------------------*/
+
+
+.Brands {
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 2em;
+    grid-row-gap: 6em;
+    margin-bottom: 12vh;
+}
+.figure-image {
+    width: 100%;
+}
+.image {
+    width: 100%;
+}
+.text {
+    margin: auto;
+}
+.brand {
+    font-family: 'Cinzel', serif;
+    margin-bottom: 2vh;
+    color: red;
+    font-size: 2.5vw;
+}
+.Buy {
+    margin-top: 3vh;
+    text-align: center;
+}
+.Buy > a {
+    padding: 10px 15vw;
+    border: 1px solid black;
+    color: white;
+    background-color: #555;
+}
+
+.Buy > a:hover {
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+}
+
+@media all and (max-width: 1000px) {
+
+    .Brands {
+        grid-template-columns: 100%;
+        grid-row-gap: 1em;
+    }
+    .patanjali-image { grid-row: 1 / 2; }
+    .patanjali-text { grid-row: 2 / 3; }
+    .Parle-G-image { grid-row: 3 / 4; }
+    .Parle-G-text { grid-row: 4 / 5; }
+    .Oreo-image { grid-row: 5 / 6; }
+    .Oreo-text { grid-row: 6 / 7; }
+    .Britania-image { grid-row: 7 / 8; }
+    .Britania-text { grid-row: 8 / 9; }
+
+    .brand {
+        font-size: 25px;
+    }
+    .text {
+        margin-bottom: 12vh;
+    }
+    .Buy > a {
+        padding: 10px 150px;
+    }
+}
